@@ -19,7 +19,7 @@ Original file is located at
 
 # 📂 Eksplorasi Dataset 📂
 
-# 📚 Library yang Diperlukan
+# 📚 Library yang Diperlukann
 """
 
 import pandas as pd
