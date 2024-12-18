@@ -31,15 +31,21 @@ import nltk
 from nltk.tokenize import word_tokenize
 import re
 
+# Konfigurasi Streamlit
+st.set_page_config(page_title="Customer Segmentation", layout="wide")
+st.title("Customer Behavior Segmentation Analysis")
+
 """# 1. Import & Load Dataset
 
 a. Import dataset
 """
 
-from google.colab import files
-uploaded = files.upload()
 
-df = pd.read_csv('customer.csv')
+
+# from google.colab import files
+# uploaded = files.upload()
+
+df = pd.read_csv("Customer Purchase Data.csv")
 print(df.size)
 
 """b. Lima baris awal dari dataset"""
